@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>6.0</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>haru.reflection</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Merijn Hendriks</Authors>
+    <Company>Project Haru</Company>
+    <PackageDescription>A wrapper around harmonylib.</PackageDescription>
+    <RepositoryUrl>https://github.com/spt-haru/haru.reflection</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference ExcludeAssets="runtime" PrivateAssets="All" Include="BepInEx.Core" Version="5.4.21" />
+    <PackageReference ExcludeAssets="runtime" PrivateAssets="All" Include="HarmonyX" Version="2.9.0" />
+  </ItemGroup>
+
+</Project>
